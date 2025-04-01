@@ -54,7 +54,7 @@ function App() {
         <section className="section contact">
           <h2>Contact Us</h2>
           <p>Have questions or want to collaborate? Reach out!</p>
-          <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          <p>Email: <a href="mailto:alejandro@pareme.org">alejandro@pareme.org</a></p>
         </section>
       </main>
 
