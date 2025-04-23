@@ -27,7 +27,7 @@ function App() {
           <h2>Source Code</h2>
           <p>Explore the project on GitHub:</p>
           <a 
-            href="https://github.com/radikalreems/pareme.org" 
+            href="https://github.com/radikalreems/pareme" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="button"
