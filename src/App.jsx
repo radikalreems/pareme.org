@@ -1,6 +1,8 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Explorer from './components/Explorer';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       {/* Header */}
@@ -20,6 +22,13 @@ function App() {
             services to outsource trust to a lightweight chain. No tokens, no bloat—just 
             pure efficiency.
           </p>
+        </section>
+
+        {/* Explorer Link Section*/}
+        <section className="section explorer">
+          <h2>Blockchain Explorer</h2>
+          <p>Query hashes and their frequencies:</p>
+          <Link to="/explorer" className="button">Go to Explorer</Link>
         </section>
 
         {/* GitHub Link Section */}
@@ -63,6 +72,17 @@ function App() {
         <p>&copy; 2025 Pareme. All rights reserved.</p>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path= "/" element={<Home />} />
+      <Route path= "/explorer" element={<Explorer />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
