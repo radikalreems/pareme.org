@@ -24,17 +24,10 @@ function Home() {
           </p>
         </section>
 
-        {/* Explorer Link Section*/}
-        <section className="section explorer">
-          <h2>Blockchain Explorer</h2>
-          <p>Query hashes and their frequencies:</p>
-          <Link to="/explorer" className="button">Go to Explorer</Link>
-        </section>
-
         {/* GitHub Link Section */}
         <section className="section github">
           <h2>Source Code</h2>
-          <p>Explore the project on GitHub:</p>
+          <p>Explore the project on GitHub</p>
           <a 
             href="https://github.com/radikalreems/pareme" 
             target="_blank" 
@@ -48,7 +41,7 @@ function Home() {
         {/* White Paper Link Section */}
         <section className="section whitepaper">
           <h2>White Paper</h2>
-          <p>Learn more about Pareme’s design and use cases:</p>
+          <p>Learn more about Pareme’s design and use cases</p>
           <a 
             href="/pareme-whitepaper.pdf" 
             target="_blank" 
@@ -57,6 +50,27 @@ function Home() {
           >
             Read the White Paper
           </a>
+        </section>
+
+        {/* Forum Link Section */}
+        <section className="section forum">
+          <h2>Pareme Community Forum</h2>
+          <p>Come talk with the Pareme community! Ask questions and develop together!</p>
+          <a 
+            href="https://pareme.discourse.group" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="button"
+          >
+            Pareme Community
+          </a>
+        </section>
+
+        {/* Explorer Link Section*/}
+        <section className="section explorer">
+          <h2>Blockchain Explorer</h2>
+          <p>Query hashes and their frequencies</p>
+          <Link to="/explorer" className="button">Go to Explorer</Link>
         </section>
 
         {/* Contact Section */}
