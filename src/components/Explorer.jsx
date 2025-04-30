@@ -20,7 +20,7 @@ function Explorer() {
     }
 
     try {
-      const response = await fetch(`http://localhost:8000/hash/${hash}`);
+      const response = await fetch(`https://pareme.sbs/hash/${hash}`);
       console.log('Fetch response:', response); // Debug: Log response object
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${await response.text()}`);
