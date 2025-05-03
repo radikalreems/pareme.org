@@ -17,10 +17,7 @@ function Home() {
         <section className="section description">
           <h2>About Pareme</h2>
           <p>
-            Pareme is a minimalist blockchain designed for secure, decentralized verification. 
-            Using proof-of-work, it separates application logic from verification, allowing 
-            services to outsource trust to a lightweight chain. No tokens, no bloat—just 
-            pure efficiency.
+          Pareme is a lightweight proof-of-work blockchain designed to secure user-submitted hashes, acting as a shared security layer for diverse systems. Unlike traditional blockchains, it is not a cryptocurrency, lacking native tokens, public keys, or block ownership, focusing solely on hash anchoring. Each compact block, containing up to 10 hashes and minimal metadata, ensures efficiency for miners and nodes. By consolidating hash power, Pareme strengthens connected blockchain and non-blockchain applications without requiring them to maintain their own mining ecosystems.
           </p>
         </section>
 
